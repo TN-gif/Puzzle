@@ -1,0 +1,19 @@
+# DevEco Studio
+.idea/
+.preview/
+node_modules/
+oh_modules/
+build/
+.cxx/
+local.properties
+
+# Build
+*.hap
+*.app
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
