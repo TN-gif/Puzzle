@@ -4,7 +4,7 @@ import { DifficultySelector } from '../components/DifficultySelector';
 import { ImageSelector } from '../components/ImageSelector';
 import { GameModeSelector } from '../components/GameModeSelector';
 import { NetworkImageSelector } from '../components/NetworkImageSelector';
-import { GameConstants } from '../constants/GameConstants';
+import { GameConstants, Colors } from '../constants/GameConstants';
 import { ImageAssets } from '../constants/ImageAssets';
 
 /**
@@ -91,22 +91,49 @@ struct HomePage {
 
   build() {
     Column() {
-      // 顶部标题区
+      // 顶部标题区 - 荧光科技风
       Column({ space: 8 }) {
-        Text('🧩')
-          .fontSize(48)
+        // 装饰性荧光条纹
+        Row({ space: 8 }) {
+          Text('━')
+            .fontSize(24)
+            .fontColor(Colors.ACCENT_PRIMARY)
+            .opacity(0.6)
+          Text('🧩')
+            .fontSize(56)
+          Text('━')
+            .fontSize(24)
+            .fontColor(Colors.ACCENT_PRIMARY)
+            .opacity(0.6)
+        }
 
         Text('拼图游戏')
-          .fontSize(28)
+          .fontSize(40)
           .fontWeight(FontWeight.Bold)
-          .fontColor(GameConstants.COLORS.TEXT)
+          .fontColor(Colors.ACCENT_PRIMARY)
+          .letterSpacing(2)
+          .shadow({
+            radius: GameConstants.GLOW_EFFECT.PRIMARY.RADIUS,
+            color: GameConstants.GLOW_EFFECT.PRIMARY.COLOR,
+            offsetX: 0,
+            offsetY: 0
+          })
 
-        Text('自由交换 & 数字华容道')
-          .fontSize(16)
-          .fontColor('#999999')
+        Text('PUZZLE GAME')
+          .fontSize(14)
+          .fontColor(Colors.TEXT_DISABLED)
+          .fontWeight(FontWeight.Medium)
+          .letterSpacing(4)
+          .opacity(0.7)
+
+        Text('荧光科技风 · 挑战你的智力极限')
+          .fontSize(15)
+          .fontColor(Colors.TEXT_SECONDARY)
+          .fontWeight(FontWeight.Medium)
+          .margin({ top: 4 })
       }
       .width('100%')
-      .padding({ top: 40, bottom: 20 })
+      .padding({ top: 40, bottom: 28 })
 
       // 滚动区域
       Scroll() {
@@ -125,24 +152,39 @@ struct HomePage {
             }
           })
 
-          // 网络图片按钮
+          // 网络图片按钮 - 荧光科技风
           Button() {
-            Row({ space: 8 }) {
+            Row({ space: 10 }) {
               Text('🌐')
-                .fontSize(20)
-              Text(this.networkImageUrl ? '已选择网络图片' : '从网络搜索图片')
-                .fontSize(16)
+                .fontSize(22)
+              Column({ space: 2 }) {
+                Text(this.networkImageUrl ? '✓ 已选择网络图片' : '从网络搜索图片')
+                  .fontSize(16)
+                  .fontWeight(FontWeight.Medium)
+                if (this.selectedImageId === -2) {
+                  Text('点击更换图片')
+                    .fontSize(12)
+                    .fontColor(Colors.TEXT_DISABLED)
+                }
+              }
+              .alignItems(HorizontalAlign.Start)
             }
           }
           .width('100%')
-          .height(50)
-          .backgroundColor(this.selectedImageId === -2 ? '#E6F7FF' : Color.White)
-          .fontColor(GameConstants.COLORS.PRIMARY)
+          .height(this.selectedImageId === -2 ? 64 : 56)
+          .backgroundColor(this.selectedImageId === -2 ? Colors.SURFACE_ELEVATED : Colors.SURFACE)
+          .fontColor(this.selectedImageId === -2 ? Colors.ACCENT_PRIMARY : Colors.TEXT_SECONDARY)
           .border({ 
             width: this.selectedImageId === -2 ? 2 : 1, 
-            color: GameConstants.COLORS.PRIMARY 
+            color: this.selectedImageId === -2 ? Colors.ACCENT_PRIMARY : Colors.TEXT_DISABLED
           })
-          .borderRadius(12)
+          .borderRadius(GameConstants.BORDER_RADIUS.MEDIUM)
+          .shadow({
+            radius: this.selectedImageId === -2 ? GameConstants.GLOW_EFFECT.PRIMARY.RADIUS : 0,
+            color: GameConstants.GLOW_EFFECT.PRIMARY.COLOR,
+            offsetX: 0,
+            offsetY: 0
+          })
           .onClick(() => {
             this.networkImageDialogController = new CustomDialogController({
               builder: NetworkImageSelector({
@@ -157,18 +199,34 @@ struct HomePage {
             this.networkImageDialogController.open();
           })
 
-          // 开始游戏按钮
-          Button('开始游戏')
-            .width('100%')
-            .height(50)
-            .fontSize(18)
-            .fontWeight(FontWeight.Bold)
-            .backgroundColor(GameConstants.COLORS.PRIMARY)
-            .borderRadius(12)
-            .margin({ top: 20, bottom: 20 })
-            .onClick(() => {
-              this.startGame();
-            })
+          // 开始游戏按钮 - 荧光科技风（带霓虹辉光）
+          Button() {
+            Row({ space: 12 }) {
+              Text('🎮')
+                .fontSize(24)
+              Text('开始游戏')
+                .fontSize(20)
+                .fontWeight(FontWeight.Bold)
+                .letterSpacing(2)
+              Text('▶')
+                .fontSize(16)
+            }
+          }
+          .width('100%')
+          .height(64)
+          .backgroundColor(Colors.ACCENT_PRIMARY)
+          .fontColor(Colors.BACKGROUND_BASE)
+          .borderRadius(GameConstants.BORDER_RADIUS.PILL)
+          .shadow({
+            radius: GameConstants.GLOW_EFFECT.PRIMARY.RADIUS * 1.5,
+            color: GameConstants.GLOW_EFFECT.PRIMARY.COLOR,
+            offsetX: 0,
+            offsetY: 0
+          })
+          .margin({ top: 32, bottom: 24 })
+          .onClick(() => {
+            this.startGame();
+          })
         }
         .padding(16)
       }
@@ -177,7 +235,7 @@ struct HomePage {
     }
     .width('100%')
     .height('100%')
-    .backgroundColor(GameConstants.COLORS.BACKGROUND)
+    .backgroundColor(Colors.BACKGROUND_BASE)
   }
 }
 

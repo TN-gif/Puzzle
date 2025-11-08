@@ -5,6 +5,7 @@
             "description": "$string:widget_description",
             "src": "./ets/widget/pages/WidgetCard.ets",
             "uiSyntax": "arkts",
+            "isDynamic": true,
             "window": {
                 "designWidth": 720,
                 "autoDesignWidth": true
@@ -13,7 +14,7 @@
             "isDefault": true,
             "updateEnabled": true,
             "scheduledUpdateTime": "10:30",
-            "updateDuration": 1,
+            "updateDuration": 5,
             "defaultDimension": "2*2",
             "supportDimensions": [
                 "2*2",

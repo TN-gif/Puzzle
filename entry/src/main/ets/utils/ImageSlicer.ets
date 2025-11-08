@@ -9,9 +9,10 @@ export class ImageSlicer {
    * 将图片切割为 N×N 的小图片
    * @param pixelMap 原始图片
    * @param gridSize 网格大小（3/4/5）
+   * @param createEmpty 是否创建空格（华容道模式true，交换模式false）
    * @returns 方块数据数组
    */
-  static async sliceImage(pixelMap: image.PixelMap, gridSize: number): Promise<TileData[]> {
+  static async sliceImage(pixelMap: image.PixelMap, gridSize: number, createEmpty: boolean = true): Promise<TileData[]> {
     const tiles: TileData[] = [];
     
     // 获取图片信息
@@ -29,8 +30,8 @@ export class ImageSlicer {
         const index = row * gridSize + col;
         const isLast = (index === gridSize * gridSize - 1);
         
-        if (isLast) {
-          // 最后一个位置是空格
+        if (isLast && createEmpty) {
+          // 最后一个位置是空格（仅华容道模式）
           tiles.push(new TileData(index, index, null, true));
         } else {
           // 裁剪区域

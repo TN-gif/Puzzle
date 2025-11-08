@@ -11,6 +11,7 @@ export interface SavedGameState {
   moveCount: number;
   timeElapsed: number;
   isPlaying: boolean;
+  timestamp?: number;  // 🔥 保存时间戳，用于检测过期数据
 }
 
 /**

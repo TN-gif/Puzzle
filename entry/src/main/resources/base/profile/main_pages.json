@@ -1,6 +1,10 @@
 {
   "src": [
-    "pages/HomePage",
-    "pages/GamePage"
+    "pages/EntryPage",
+    "pages/ThemeSelectionPage",
+    "pages/CharacterSelectionPage",
+    "pages/ImageSelectionPage",
+    "pages/GamePage",
+    "pages/HomePage"
   ]
 }

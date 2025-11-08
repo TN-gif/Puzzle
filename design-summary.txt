@@ -1,0 +1,1747 @@
+--- 页面: 进入页面 ---
+
+进入页面——三屏 (group)
+  W: 1107vp, H: 776vp
+  X: -658vp, Y: -417vp
+  Opacity: 1
+  【填充】: 图片, File: 23875aab0c859abb64425a48266a44a4e6ab8f59.png
+  开始拼图 (group)
+    W: 254vp, H: 74vp
+    X: 426vp, Y: 652vp
+    Opacity: 1
+    尺寸=Medium,类型=Emphasized,状态=Focus (group)
+      W: 254vp, H: 74vp
+      X: 0vp, Y: 0vp
+      Opacity: 1
+      【填充】: 纯色, rgba(255, 255, 255, 0.91)
+      矩形 3 (shapePath)
+        W: 262vp, H: 82vp
+        X: -4vp, Y: -4vp
+        Opacity: 1
+
+      text (text)
+        W: 192vp, H: 52vp
+        X: 31vp, Y: 11vp
+        Opacity: 1
+        【内容】: 开始拼图
+        【文本样式】:
+          字体: Muyao-Softbrush-Regular
+          字号: 48vp
+          颜色: rgba(0, 0, 0, 1)
+
+
+
+
+进入页面——双屏 (group)
+  W: 712vp, H: 776vp
+  X: -474vp, Y: 500vp
+  Opacity: 1
+  【填充】: 图片, File: 23875aab0c859abb64425a48266a44a4e6ab8f59.png
+  开始拼图 (group)
+    W: 254vp, H: 74vp
+    X: 229vp, Y: 588vp
+    Opacity: 1
+    尺寸=Medium,类型=Emphasized,状态=Focus (group)
+      W: 254vp, H: 74vp
+      X: 0vp, Y: 0vp
+      Opacity: 1
+      【填充】: 纯色, rgba(255, 255, 255, 0.91)
+      矩形 3 (shapePath)
+        W: 262vp, H: 82vp
+        X: -4vp, Y: -4vp
+        Opacity: 1
+
+      text (text)
+        W: 192vp, H: 52vp
+        X: 31vp, Y: 11vp
+        Opacity: 1
+        【内容】: 开始拼图
+        【文本样式】:
+          字体: Muyao-Softbrush-Regular
+          字号: 48vp
+          颜色: rgba(0, 0, 0, 1)
+
+
+
+
+进入页面——单屏 (group)
+  W: 776vp, H: 350vp
+  X: -493vp, Y: 1361vp
+  Opacity: 1
+  【填充】: 图片, File: 23875aab0c859abb64425a48266a44a4e6ab8f59.png
+  开始拼图 (group)
+    W: 254vp, H: 74vp
+    X: 40vp, Y: 138vp
+    Opacity: 1
+    尺寸=Medium,类型=Emphasized,状态=Focus (group)
+      W: 254vp, H: 74vp
+      X: 0vp, Y: 0vp
+      Opacity: 1
+      【填充】: 纯色, rgba(255, 255, 255, 0.91)
+      矩形 3 (shapePath)
+        W: 262vp, H: 82vp
+        X: -4vp, Y: -4vp
+        Opacity: 1
+
+      text (text)
+        W: 192vp, H: 52vp
+        X: 31vp, Y: 11vp
+        Opacity: 1
+        【内容】: 开始拼图
+        【文本样式】:
+          字体: Muyao-Softbrush-Regular
+          字号: 48vp
+          颜色: rgba(0, 0, 0, 1)
+
+
+
+
+--- 页面: 选择主题页面 ---
+
+选择主题页面——三屏 (group)
+  W: 1107vp, H: 776vp
+  X: -455vp, Y: -497vp
+  Opacity: 1
+  【填充】: 图片, File: 303221a9029bb0664e5116e82f7dab6a9aabb29f.png
+  相册上传 (group)
+    W: 254vp, H: 74vp
+    X: 41vp, Y: 642vp
+    Opacity: 1
+    尺寸=Medium,类型=Emphasized,状态=Focus (group)
+      W: 254vp, H: 74vp
+      X: 0vp, Y: 0vp
+      Opacity: 1
+      【填充】: 纯色, rgba(255, 255, 255, 0.91)
+      矩形 3 (shapePath)
+        W: 262vp, H: 82vp
+        X: -4vp, Y: -4vp
+        Opacity: 1
+
+      text (text)
+        W: 192vp, H: 52vp
+        X: 31vp, Y: 11vp
+        Opacity: 1
+        【内容】: 相册上传
+        【文本样式】:
+          字体: Muyao-Softbrush-Regular
+          字号: 48vp
+          颜色: rgba(0, 0, 0, 1)
+
+
+
+  网络随机 (group)
+    W: 254vp, H: 74vp
+    X: 41vp, Y: 527vp
+    Opacity: 1
+    尺寸=Medium,类型=Emphasized,状态=Focus (group)
+      W: 254vp, H: 74vp
+      X: 0vp, Y: 0vp
+      Opacity: 1
+      【填充】: 纯色, rgba(255, 255, 255, 0.91)
+      矩形 3 (shapePath)
+        W: 262vp, H: 82vp
+        X: -4vp, Y: -4vp
+        Opacity: 1
+
+      text (text)
+        W: 192vp, H: 52vp
+        X: 31vp, Y: 11vp
+        Opacity: 1
+        【内容】: 网络随机
+        【文本样式】:
+          字体: Muyao-Softbrush-Regular
+          字号: 48vp
+          颜色: rgba(0, 0, 0, 1)
+
+
+
+  邦布专辑 (group)
+    W: 254vp, H: 74vp
+    X: 41vp, Y: 412vp
+    Opacity: 1
+    尺寸=Medium,类型=Emphasized,状态=Focus (group)
+      W: 254vp, H: 74vp
+      X: 0vp, Y: 0vp
+      Opacity: 1
+      【填充】: 纯色, rgba(255, 255, 255, 0.91)
+      矩形 3 (shapePath)
+        W: 262vp, H: 82vp
+        X: -4vp, Y: -4vp
+        Opacity: 1
+
+      text (text)
+        W: 192vp, H: 52vp
+        X: 31vp, Y: 11vp
+        Opacity: 1
+        【内容】: 邦布专辑
+        【文本样式】:
+          字体: Muyao-Softbrush-Regular
+          字号: 48vp
+          颜色: rgba(0, 0, 0, 1)
+
+
+
+  角色专辑 (group)
+    W: 254vp, H: 74vp
+    X: 41vp, Y: 297vp
+    Opacity: 1
+    尺寸=Medium,类型=Emphasized,状态=Focus (group)
+      W: 254vp, H: 74vp
+      X: 0vp, Y: 0vp
+      Opacity: 1
+      【填充】: 纯色, rgba(255, 255, 255, 0.91)
+      矩形 3 (shapePath)
+        W: 262vp, H: 82vp
+        X: -4vp, Y: -4vp
+        Opacity: 1
+
+      text (text)
+        W: 192vp, H: 52vp
+        X: 31vp, Y: 11vp
+        Opacity: 1
+        【内容】: 角色专辑
+        【文本样式】:
+          字体: Muyao-Softbrush-Regular
+          字号: 48vp
+          颜色: rgba(0, 0, 0, 1)
+
+
+
+
+选择主题页面——双屏 (group)
+  W: 712vp, H: 776vp
+  X: -270vp, Y: 351vp
+  Opacity: 1
+  【填充】: 图片, File: 303221a9029bb0664e5116e82f7dab6a9aabb29f.png
+  相册上传 (group)
+    W: 207vp, H: 68vp
+    X: 50vp, Y: 631vp
+    Opacity: 1
+    尺寸=Medium,类型=Emphasized,状态=Focus (group)
+      W: 207vp, H: 68vp
+      X: 0vp, Y: 0vp
+      Opacity: 1
+      【填充】: 纯色, rgba(255, 255, 255, 0.91)
+      矩形 3 (shapePath)
+        W: 215vp, H: 76vp
+        X: -4vp, Y: -4vp
+        Opacity: 1
+
+      text (text)
+        W: 160vp, H: 43vp
+        X: 24vp, Y: 13vp
+        Opacity: 1
+        【内容】: 相册上传
+        【文本样式】:
+          字体: Muyao-Softbrush-Regular
+          字号: 40vp
+          颜色: rgba(0, 0, 0, 1)
+
+
+
+  网络随机 (group)
+    W: 207vp, H: 68vp
+    X: 50vp, Y: 526vp
+    Opacity: 1
+    尺寸=Medium,类型=Emphasized,状态=Focus (group)
+      W: 207vp, H: 68vp
+      X: 0vp, Y: 0vp
+      Opacity: 1
+      【填充】: 纯色, rgba(255, 255, 255, 0.91)
+      矩形 3 (shapePath)
+        W: 215vp, H: 76vp
+        X: -4vp, Y: -4vp
+        Opacity: 1
+
+      text (text)
+        W: 160vp, H: 43vp
+        X: 24vp, Y: 13vp
+        Opacity: 1
+        【内容】: 网络随机
+        【文本样式】:
+          字体: Muyao-Softbrush-Regular
+          字号: 40vp
+          颜色: rgba(0, 0, 0, 1)
+
+
+
+  邦布专辑 (group)
+    W: 207vp, H: 68vp
+    X: 50vp, Y: 421vp
+    Opacity: 1
+    尺寸=Medium,类型=Emphasized,状态=Focus (group)
+      W: 207vp, H: 68vp
+      X: 0vp, Y: 0vp
+      Opacity: 1
+      【填充】: 纯色, rgba(255, 255, 255, 0.91)
+      矩形 3 (shapePath)
+        W: 215vp, H: 76vp
+        X: -4vp, Y: -4vp
+        Opacity: 1
+
+      text (text)
+        W: 160vp, H: 43vp
+        X: 24vp, Y: 13vp
+        Opacity: 1
+        【内容】: 邦布专辑
+        【文本样式】:
+          字体: Muyao-Softbrush-Regular
+          字号: 40vp
+          颜色: rgba(0, 0, 0, 1)
+
+
+
+  角色专辑 (group)
+    W: 207vp, H: 68vp
+    X: 50vp, Y: 316vp
+    Opacity: 1
+    尺寸=Medium,类型=Emphasized,状态=Focus (group)
+      W: 207vp, H: 68vp
+      X: 0vp, Y: 0vp
+      Opacity: 1
+      【填充】: 纯色, rgba(255, 255, 255, 0.91)
+      矩形 3 (shapePath)
+        W: 215vp, H: 76vp
+        X: -4vp, Y: -4vp
+        Opacity: 1
+
+      text (text)
+        W: 160vp, H: 43vp
+        X: 24vp, Y: 13vp
+        Opacity: 1
+        【内容】: 角色专辑
+        【文本样式】:
+          字体: Muyao-Softbrush-Regular
+          字号: 40vp
+          颜色: rgba(0, 0, 0, 1)
+
+
+
+
+选择主题页面——单屏 (group)
+  W: 776vp, H: 350vp
+  X: -289vp, Y: 1199vp
+  Opacity: 1
+  【填充】: 图片, File: 303221a9029bb0664e5116e82f7dab6a9aabb29f.png
+  相册上传 (group)
+    W: 174vp, H: 60vp
+    X: 42vp, Y: 267vp
+    Opacity: 1
+    尺寸=Medium,类型=Emphasized,状态=Focus (group)
+      W: 174vp, H: 60vp
+      X: 0vp, Y: 0vp
+      Opacity: 1
+      【填充】: 纯色, rgba(255, 255, 255, 0.91)
+      矩形 3 (shapePath)
+        W: 182vp, H: 68vp
+        X: -4vp, Y: -4vp
+        Opacity: 1
+
+      text (text)
+        W: 140vp, H: 38vp
+        X: 17vp, Y: 11vp
+        Opacity: 1
+        【内容】: 相册上传
+        【文本样式】:
+          字体: Muyao-Softbrush-Regular
+          字号: 35vp
+          颜色: rgba(0, 0, 0, 1)
+
+
+
+  网络随机 (group)
+    W: 174vp, H: 60vp
+    X: 42vp, Y: 185vp
+    Opacity: 1
+    尺寸=Medium,类型=Emphasized,状态=Focus (group)
+      W: 174vp, H: 60vp
+      X: 0vp, Y: 0vp
+      Opacity: 1
+      【填充】: 纯色, rgba(255, 255, 255, 0.91)
+      矩形 3 (shapePath)
+        W: 182vp, H: 68vp
+        X: -4vp, Y: -4vp
+        Opacity: 1
+
+      text (text)
+        W: 140vp, H: 38vp
+        X: 17vp, Y: 11vp
+        Opacity: 1
+        【内容】: 网络随机
+        【文本样式】:
+          字体: Muyao-Softbrush-Regular
+          字号: 35vp
+          颜色: rgba(0, 0, 0, 1)
+
+
+
+  邦布专辑 (group)
+    W: 174vp, H: 60vp
+    X: 42vp, Y: 104vp
+    Opacity: 1
+    尺寸=Medium,类型=Emphasized,状态=Focus (group)
+      W: 174vp, H: 60vp
+      X: 0vp, Y: 0vp
+      Opacity: 1
+      【填充】: 纯色, rgba(255, 255, 255, 0.91)
+      矩形 3 (shapePath)
+        W: 182vp, H: 68vp
+        X: -4vp, Y: -4vp
+        Opacity: 1
+
+      text (text)
+        W: 140vp, H: 38vp
+        X: 17vp, Y: 11vp
+        Opacity: 1
+        【内容】: 邦布专辑
+        【文本样式】:
+          字体: Muyao-Softbrush-Regular
+          字号: 35vp
+          颜色: rgba(0, 0, 0, 1)
+
+
+
+  角色专辑 (group)
+    W: 174vp, H: 60vp
+    X: 42vp, Y: 22vp
+    Opacity: 1
+    尺寸=Medium,类型=Emphasized,状态=Focus (group)
+      W: 174vp, H: 60vp
+      X: 0vp, Y: 0vp
+      Opacity: 1
+      【填充】: 纯色, rgba(255, 255, 255, 0.91)
+      矩形 3 (shapePath)
+        W: 182vp, H: 68vp
+        X: -4vp, Y: -4vp
+        Opacity: 1
+
+      text (text)
+        W: 140vp, H: 38vp
+        X: 17vp, Y: 11vp
+        Opacity: 1
+        【内容】: 角色专辑
+        【文本样式】:
+          字体: Muyao-Softbrush-Regular
+          字号: 35vp
+          颜色: rgba(0, 0, 0, 1)
+
+
+
+
+--- 页面: 人物选择页面 ---
+
+人物选择页面——三屏 (group)
+  W: 1107vp, H: 776vp
+  X: -531vp, Y: -369vp
+  Opacity: 1
+  【填充】: 图片, File: 52976c592b9ef6099ec4fc2d52ce4e3f1e91aa1e.png
+  切换人物 (group)
+    W: 254vp, H: 74vp
+    X: 613vp, Y: 651vp
+    Opacity: 1
+    尺寸=Medium,类型=Emphasized,状态=Focus (group)
+      W: 254vp, H: 74vp
+      X: 0vp, Y: 0vp
+      Opacity: 1
+      【填充】: 纯色, rgba(255, 255, 255, 1)
+      矩形 3 (shapePath)
+        W: 262vp, H: 82vp
+        X: -4vp, Y: -4vp
+        Opacity: 1
+
+      text (text)
+        W: 192vp, H: 52vp
+        X: 31vp, Y: 11vp
+        Opacity: 1
+        【内容】: 切换人物
+        【文本样式】:
+          字体: Muyao-Softbrush-Regular
+          字号: 48vp
+          颜色: rgba(0, 0, 0, 1)
+
+
+
+  选择人物 (group)
+    W: 254vp, H: 74vp
+    X: 239vp, Y: 651vp
+    Opacity: 1
+    尺寸=Medium,类型=Emphasized,状态=Focus (group)
+      W: 254vp, H: 74vp
+      X: 0vp, Y: 0vp
+      Opacity: 1
+      【填充】: 纯色, rgba(255, 255, 255, 1)
+      矩形 3 (shapePath)
+        W: 262vp, H: 82vp
+        X: -4vp, Y: -4vp
+        Opacity: 1
+
+      text (text)
+        W: 192vp, H: 52vp
+        X: 31vp, Y: 11vp
+        Opacity: 1
+        【内容】: 选择人物
+        【文本样式】:
+          字体: Muyao-Softbrush-Regular
+          字号: 48vp
+          颜色: rgba(0, 0, 0, 1)
+
+
+
+  莱特角色显示图 1 (shapePath)
+    W: 852vp, H: 533vp
+    X: 127vp, Y: 69vp
+    Opacity: 1
+    【填充】: 图片, File: 36b1d3a322d4b5bb605edaf22a0051b299ef7a20.png
+    【阴影】: rgba(0, 0, 0, 0.25), X: 4, Y: 4, Blur: 25, Spread: 5
+
+  返回组合 (group)
+    W: 60vp, H: 60vp
+    X: 27vp, Y: 26vp
+    Opacity: 1
+    【填充】: 纯色, rgba(255, 255, 255, 0.9)
+    返回图标 (group)
+      W: 37vp, H: 35vp
+      X: 12vp, Y: 12vp
+      Opacity: 1
+      【填充】: 图片, File: 7ade6729c509000e9c9ec39030c32dacae42e0bb.png
+
+
+
+人物选择页面——双屏 (group)
+  W: 712vp, H: 776vp
+  X: -347vp, Y: 500vp
+  Opacity: 1
+  【填充】: 图片, File: 52976c592b9ef6099ec4fc2d52ce4e3f1e91aa1e.png
+  切换人物 (group)
+    W: 254vp, H: 74vp
+    X: 229vp, Y: 655vp
+    Opacity: 1
+    尺寸=Medium,类型=Emphasized,状态=Focus (group)
+      W: 254vp, H: 74vp
+      X: 0vp, Y: 0vp
+      Opacity: 1
+      【填充】: 纯色, rgba(255, 255, 255, 1)
+      矩形 3 (shapePath)
+        W: 262vp, H: 82vp
+        X: -4vp, Y: -4vp
+        Opacity: 1
+
+      text (text)
+        W: 192vp, H: 52vp
+        X: 31vp, Y: 11vp
+        Opacity: 1
+        【内容】: 切换人物
+        【文本样式】:
+          字体: Muyao-Softbrush-Regular
+          字号: 48vp
+          颜色: rgba(0, 0, 0, 1)
+
+
+
+  选择人物 (group)
+    W: 254vp, H: 74vp
+    X: 229vp, Y: 544vp
+    Opacity: 1
+    尺寸=Medium,类型=Emphasized,状态=Focus (group)
+      W: 254vp, H: 74vp
+      X: 0vp, Y: 0vp
+      Opacity: 1
+      【填充】: 纯色, rgba(255, 255, 255, 1)
+      矩形 3 (shapePath)
+        W: 262vp, H: 82vp
+        X: -4vp, Y: -4vp
+        Opacity: 1
+
+      text (text)
+        W: 192vp, H: 52vp
+        X: 31vp, Y: 11vp
+        Opacity: 1
+        【内容】: 选择人物
+        【文本样式】:
+          字体: Muyao-Softbrush-Regular
+          字号: 48vp
+          颜色: rgba(0, 0, 0, 1)
+
+
+
+  莱特角色显示图 2 (shapePath)
+    W: 605vp, H: 399vp
+    X: 54vp, Y: 112vp
+    Opacity: 1
+    【填充】: 图片, File: 36b1d3a322d4b5bb605edaf22a0051b299ef7a20.png
+    【阴影】: rgba(0, 0, 0, 0.25), X: 4, Y: 4, Blur: 25, Spread: 5
+
+  返回组合 (group)
+    W: 60vp, H: 60vp
+    X: 17vp, Y: 22vp
+    Opacity: 1
+    【填充】: 纯色, rgba(255, 255, 255, 0.9)
+    返回图标 (group)
+      W: 37vp, H: 35vp
+      X: 12vp, Y: 12vp
+      Opacity: 1
+      【填充】: 图片, File: 7ade6729c509000e9c9ec39030c32dacae42e0bb.png
+
+
+
+人物选择页面——单屏 (group)
+  W: 776vp, H: 350vp
+  X: -366vp, Y: 1374vp
+  Opacity: 1
+  【填充】: 图片, File: 52976c592b9ef6099ec4fc2d52ce4e3f1e91aa1e.png
+  选择人物 (group)
+    W: 203vp, H: 67vp
+    X: 537vp, Y: 91vp
+    Opacity: 1
+    尺寸=Medium,类型=Emphasized,状态=Focus (group)
+      W: 203vp, H: 67vp
+      X: 0vp, Y: 0vp
+      Opacity: 1
+      【填充】: 纯色, rgba(255, 255, 255, 1)
+      矩形 3 (shapePath)
+        W: 211vp, H: 75vp
+        X: -4vp, Y: -4vp
+        Opacity: 1
+
+      text (text)
+        W: 152vp, H: 41vp
+        X: 26vp, Y: 13vp
+        Opacity: 1
+        【内容】: 选择人物
+        【文本样式】:
+          字体: Muyao-Softbrush-Regular
+          字号: 38vp
+          颜色: rgba(0, 0, 0, 1)
+
+
+
+  切换人物 (group)
+    W: 203vp, H: 67vp
+    X: 537vp, Y: 191vp
+    Opacity: 1
+    尺寸=Medium,类型=Emphasized,状态=Focus (group)
+      W: 203vp, H: 67vp
+      X: 0vp, Y: 0vp
+      Opacity: 1
+      【填充】: 纯色, rgba(255, 255, 255, 1)
+      矩形 3 (shapePath)
+        W: 211vp, H: 75vp
+        X: -4vp, Y: -4vp
+        Opacity: 1
+
+      text (text)
+        W: 152vp, H: 41vp
+        X: 26vp, Y: 13vp
+        Opacity: 1
+        【内容】: 切换人物
+        【文本样式】:
+          字体: Muyao-Softbrush-Regular
+          字号: 38vp
+          颜色: rgba(0, 0, 0, 1)
+
+
+
+  莱特角色显示图 3 (shapePath)
+    W: 432vp, H: 270vp
+    X: 77vp, Y: 40vp
+    Opacity: 1
+    【填充】: 图片, File: 36b1d3a322d4b5bb605edaf22a0051b299ef7a20.png
+    【阴影】: rgba(0, 0, 0, 0.25), X: 4, Y: 4, Blur: 25, Spread: 5
+
+  返回组合 (group)
+    W: 35vp, H: 35vp
+    X: 18vp, Y: 11vp
+    Opacity: 1
+    【填充】: 纯色, rgba(255, 255, 255, 0.9)
+    返回图标 (group)
+      W: 20vp, H: 17vp
+      X: 7vp, Y: 9vp
+      Opacity: 1
+      【填充】: 图片, File: 7ade6729c509000e9c9ec39030c32dacae42e0bb.png
+
+
+
+--- 页面: 选择主题照片页面 ---
+
+角色专辑 / 邦布专辑——三屏 (group)
+  W: 1107vp, H: 776vp
+  X: -1724vp, Y: -413vp
+  Opacity: 1
+  【填充】: 图片, File: 52976c592b9ef6099ec4fc2d52ce4e3f1e91aa1e.png
+  切换图片 (group)
+    W: 254vp, H: 74vp
+    X: 587vp, Y: 677vp
+    Opacity: 1
+    尺寸=Medium,类型=Emphasized,状态=Focus (group)
+      W: 254vp, H: 74vp
+      X: 0vp, Y: 0vp
+      Opacity: 1
+      【填充】: 纯色, rgba(255, 255, 255, 0.91)
+      矩形 3 (shapePath)
+        W: 262vp, H: 82vp
+        X: -4vp, Y: -4vp
+        Opacity: 1
+
+      text (text)
+        W: 192vp, H: 52vp
+        X: 31vp, Y: 11vp
+        Opacity: 1
+        【内容】: 切换图片
+        【文本样式】:
+          字体: Muyao-Softbrush-Regular
+          字号: 48vp
+          颜色: rgba(0, 0, 0, 1)
+
+
+
+  开始游戏 (group)
+    W: 254vp, H: 74vp
+    X: 278vp, Y: 677vp
+    Opacity: 1
+    尺寸=Medium,类型=Emphasized,状态=Focus (group)
+      W: 254vp, H: 74vp
+      X: 0vp, Y: 0vp
+      Opacity: 1
+      【填充】: 纯色, rgba(255, 255, 255, 0.91)
+      矩形 3 (shapePath)
+        W: 262vp, H: 82vp
+        X: -4vp, Y: -4vp
+        Opacity: 1
+
+      text (text)
+        W: 192vp, H: 52vp
+        X: 31vp, Y: 11vp
+        Opacity: 1
+        【内容】: 开始游戏
+        【文本样式】:
+          字体: Muyao-Softbrush-Regular
+          字号: 48vp
+          颜色: rgba(0, 0, 0, 1)
+
+
+
+  图片展示 (shapePath)
+    W: 630vp, H: 630vp
+    X: 239vp, Y: 29vp
+    Opacity: 1
+    【填充】: 图片, File: 11d2733707697816fdc2e43c2f36b456bdadc2b8.png
+    【阴影】: rgba(0, 0, 0, 0.25), X: 4, Y: 4, Blur: 25, Spread: 5
+
+  返回组合 (group)
+    W: 60vp, H: 60vp
+    X: 27vp, Y: 26vp
+    Opacity: 1
+    【填充】: 纯色, rgba(255, 255, 255, 0.9)
+    返回图标 (group)
+      W: 37vp, H: 35vp
+      X: 12vp, Y: 12vp
+      Opacity: 1
+      【填充】: 图片, File: 7ade6729c509000e9c9ec39030c32dacae42e0bb.png
+
+
+
+角色专辑 / 邦布专辑——双屏 (group)
+  W: 712vp, H: 776vp
+  X: -1539vp, Y: 513vp
+  Opacity: 1
+  【填充】: 图片, File: 52976c592b9ef6099ec4fc2d52ce4e3f1e91aa1e.png
+  切换照片 (group)
+    W: 254vp, H: 74vp
+    X: 381vp, Y: 647vp
+    Opacity: 1
+    尺寸=Medium,类型=Emphasized,状态=Focus (group)
+      W: 254vp, H: 74vp
+      X: 0vp, Y: 0vp
+      Opacity: 1
+      【填充】: 纯色, rgba(255, 255, 255, 1)
+      矩形 3 (shapePath)
+        W: 262vp, H: 82vp
+        X: -4vp, Y: -4vp
+        Opacity: 1
+
+      text (text)
+        W: 192vp, H: 52vp
+        X: 31vp, Y: 11vp
+        Opacity: 1
+        【内容】: 切换图片
+        【文本样式】:
+          字体: Muyao-Softbrush-Regular
+          字号: 48vp
+          颜色: rgba(0, 0, 0, 1)
+
+
+
+  开始游戏 (group)
+    W: 254vp, H: 74vp
+    X: 77vp, Y: 647vp
+    Opacity: 1
+    尺寸=Medium,类型=Emphasized,状态=Focus (group)
+      W: 254vp, H: 74vp
+      X: 0vp, Y: 0vp
+      Opacity: 1
+      【填充】: 纯色, rgba(255, 255, 255, 1)
+      矩形 3 (shapePath)
+        W: 262vp, H: 82vp
+        X: -4vp, Y: -4vp
+        Opacity: 1
+
+      text (text)
+        W: 192vp, H: 52vp
+        X: 31vp, Y: 11vp
+        Opacity: 1
+        【内容】: 开始游戏
+        【文本样式】:
+          字体: Muyao-Softbrush-Regular
+          字号: 48vp
+          颜色: rgba(0, 0, 0, 1)
+
+
+
+  返回组合 (group)
+    W: 60vp, H: 60vp
+    X: 17vp, Y: 22vp
+    Opacity: 1
+    【填充】: 纯色, rgba(255, 255, 255, 0.9)
+    返回图标 (group)
+      W: 37vp, H: 35vp
+      X: 12vp, Y: 12vp
+      Opacity: 1
+      【填充】: 图片, File: 7ade6729c509000e9c9ec39030c32dacae42e0bb.png
+
+
+  图片展示 (shapePath)
+    W: 558vp, H: 549vp
+    X: 77vp, Y: 65vp
+    Opacity: 1
+    【填充】: 图片, File: 11d2733707697816fdc2e43c2f36b456bdadc2b8.png
+    【阴影】: rgba(0, 0, 0, 0.25), X: 4, Y: 4, Blur: 25, Spread: 5
+
+
+角色专辑 / 邦布专辑——单屏 (group)
+  W: 776vp, H: 350vp
+  X: -1558vp, Y: 1439vp
+  Opacity: 1
+  【填充】: 图片, File: 52976c592b9ef6099ec4fc2d52ce4e3f1e91aa1e.png
+  切换图片 (group)
+    W: 203vp, H: 67vp
+    X: 493vp, Y: 194vp
+    Opacity: 1
+    尺寸=Medium,类型=Emphasized,状态=Focus (group)
+      W: 203vp, H: 67vp
+      X: 0vp, Y: 0vp
+      Opacity: 1
+      【填充】: 纯色, rgba(255, 255, 255, 1)
+      矩形 3 (shapePath)
+        W: 211vp, H: 75vp
+        X: -4vp, Y: -4vp
+        Opacity: 1
+
+      text (text)
+        W: 152vp, H: 41vp
+        X: 26vp, Y: 13vp
+        Opacity: 1
+        【内容】: 切换图片
+        【文本样式】:
+          字体: Muyao-Softbrush-Regular
+          字号: 38vp
+          颜色: rgba(0, 0, 0, 1)
+
+
+
+  开始游戏 (group)
+    W: 203vp, H: 67vp
+    X: 493vp, Y: 88vp
+    Opacity: 1
+    尺寸=Medium,类型=Emphasized,状态=Focus (group)
+      W: 203vp, H: 67vp
+      X: 0vp, Y: 0vp
+      Opacity: 1
+      【填充】: 纯色, rgba(255, 255, 255, 1)
+      矩形 3 (shapePath)
+        W: 211vp, H: 75vp
+        X: -4vp, Y: -4vp
+        Opacity: 1
+
+      text (text)
+        W: 152vp, H: 41vp
+        X: 26vp, Y: 13vp
+        Opacity: 1
+        【内容】: 开始游戏
+        【文本样式】:
+          字体: Muyao-Softbrush-Regular
+          字号: 38vp
+          颜色: rgba(0, 0, 0, 1)
+
+
+
+  图片展示 (shapePath)
+    W: 313vp, H: 320vp
+    X: 115vp, Y: 15vp
+    Opacity: 1
+    【填充】: 图片, File: 11d2733707697816fdc2e43c2f36b456bdadc2b8.png
+    【阴影】: rgba(0, 0, 0, 0.25), X: 4, Y: 4, Blur: 25, Spread: 5
+
+  返回组合 (group)
+    W: 35vp, H: 35vp
+    X: 18vp, Y: 11vp
+    Opacity: 1
+    【填充】: 纯色, rgba(255, 255, 255, 0.9)
+    返回图标 (group)
+      W: 20vp, H: 17vp
+      X: 7vp, Y: 9vp
+      Opacity: 1
+      【填充】: 图片, File: 7ade6729c509000e9c9ec39030c32dacae42e0bb.png
+
+
+
+网络随机——三屏 (group)
+  W: 1107vp, H: 776vp
+  X: 832vp, Y: -413vp
+  Opacity: 1
+  【填充】: 图片, File: 52976c592b9ef6099ec4fc2d52ce4e3f1e91aa1e.png
+  再次随机 (group)
+    W: 254vp, H: 74vp
+    X: 587vp, Y: 677vp
+    Opacity: 1
+    尺寸=Medium,类型=Emphasized,状态=Focus (group)
+      W: 254vp, H: 74vp
+      X: 0vp, Y: 0vp
+      Opacity: 1
+      【填充】: 纯色, rgba(255, 255, 255, 0.91)
+      矩形 3 (shapePath)
+        W: 262vp, H: 82vp
+        X: -4vp, Y: -4vp
+        Opacity: 1
+
+      text (text)
+        W: 192vp, H: 52vp
+        X: 31vp, Y: 11vp
+        Opacity: 1
+        【内容】: 再次随机
+        【文本样式】:
+          字体: Muyao-Softbrush-Regular
+          字号: 48vp
+          颜色: rgba(0, 0, 0, 1)
+
+
+
+  开始游戏 (group)
+    W: 254vp, H: 74vp
+    X: 278vp, Y: 677vp
+    Opacity: 1
+    尺寸=Medium,类型=Emphasized,状态=Focus (group)
+      W: 254vp, H: 74vp
+      X: 0vp, Y: 0vp
+      Opacity: 1
+      【填充】: 纯色, rgba(255, 255, 255, 0.91)
+      矩形 3 (shapePath)
+        W: 262vp, H: 82vp
+        X: -4vp, Y: -4vp
+        Opacity: 1
+
+      text (text)
+        W: 192vp, H: 52vp
+        X: 31vp, Y: 11vp
+        Opacity: 1
+        【内容】: 开始游戏
+        【文本样式】:
+          字体: Muyao-Softbrush-Regular
+          字号: 48vp
+          颜色: rgba(0, 0, 0, 1)
+
+
+
+  图片展示 (shapePath)
+    W: 630vp, H: 630vp
+    X: 239vp, Y: 29vp
+    Opacity: 1
+    【填充】: 图片, File: 11d2733707697816fdc2e43c2f36b456bdadc2b8.png
+    【阴影】: rgba(0, 0, 0, 0.25), X: 4, Y: 4, Blur: 25, Spread: 5
+
+  返回组合 (group)
+    W: 60vp, H: 60vp
+    X: 30vp, Y: 29vp
+    Opacity: 1
+    【填充】: 纯色, rgba(255, 255, 255, 0.9)
+    返回图标 (group)
+      W: 37vp, H: 35vp
+      X: 12vp, Y: 12vp
+      Opacity: 1
+      【填充】: 图片, File: 7ade6729c509000e9c9ec39030c32dacae42e0bb.png
+
+
+
+网络随机——双屏 (group)
+  W: 712vp, H: 776vp
+  X: 1017vp, Y: 513vp
+  Opacity: 1
+  【填充】: 图片, File: 52976c592b9ef6099ec4fc2d52ce4e3f1e91aa1e.png
+  再次随机 (group)
+    W: 254vp, H: 74vp
+    X: 382vp, Y: 649vp
+    Opacity: 1
+    尺寸=Medium,类型=Emphasized,状态=Focus (group)
+      W: 254vp, H: 74vp
+      X: 0vp, Y: 0vp
+      Opacity: 1
+      【填充】: 纯色, rgba(255, 255, 255, 1)
+      矩形 3 (shapePath)
+        W: 262vp, H: 82vp
+        X: -4vp, Y: -4vp
+        Opacity: 1
+
+      text (text)
+        W: 192vp, H: 52vp
+        X: 31vp, Y: 11vp
+        Opacity: 1
+        【内容】: 再次随机
+        【文本样式】:
+          字体: Muyao-Softbrush-Regular
+          字号: 48vp
+          颜色: rgba(0, 0, 0, 1)
+
+
+
+  开始游戏 (group)
+    W: 254vp, H: 74vp
+    X: 78vp, Y: 649vp
+    Opacity: 1
+    尺寸=Medium,类型=Emphasized,状态=Focus (group)
+      W: 254vp, H: 74vp
+      X: 0vp, Y: 0vp
+      Opacity: 1
+      【填充】: 纯色, rgba(255, 255, 255, 1)
+      矩形 3 (shapePath)
+        W: 262vp, H: 82vp
+        X: -4vp, Y: -4vp
+        Opacity: 1
+
+      text (text)
+        W: 192vp, H: 52vp
+        X: 31vp, Y: 11vp
+        Opacity: 1
+        【内容】: 开始游戏
+        【文本样式】:
+          字体: Muyao-Softbrush-Regular
+          字号: 48vp
+          颜色: rgba(0, 0, 0, 1)
+
+
+
+  图片展示 (shapePath)
+    W: 558vp, H: 549vp
+    X: 78vp, Y: 65vp
+    Opacity: 1
+    【填充】: 图片, File: 11d2733707697816fdc2e43c2f36b456bdadc2b8.png
+    【阴影】: rgba(0, 0, 0, 0.25), X: 4, Y: 4, Blur: 25, Spread: 5
+
+  返回组合 (group)
+    W: 60vp, H: 60vp
+    X: 17vp, Y: 22vp
+    Opacity: 1
+    【填充】: 纯色, rgba(255, 255, 255, 0.9)
+    返回图标 (group)
+      W: 37vp, H: 35vp
+      X: 12vp, Y: 12vp
+      Opacity: 1
+      【填充】: 图片, File: 7ade6729c509000e9c9ec39030c32dacae42e0bb.png
+
+
+
+网络随机——单屏 (group)
+  W: 776vp, H: 350vp
+  X: 979vp, Y: 1439vp
+  Opacity: 1
+  【填充】: 图片, File: 52976c592b9ef6099ec4fc2d52ce4e3f1e91aa1e.png
+  再次随机 (group)
+    W: 203vp, H: 67vp
+    X: 493vp, Y: 194vp
+    Opacity: 1
+    尺寸=Medium,类型=Emphasized,状态=Focus (group)
+      W: 203vp, H: 67vp
+      X: 0vp, Y: 0vp
+      Opacity: 1
+      【填充】: 纯色, rgba(255, 255, 255, 1)
+      矩形 3 (shapePath)
+        W: 211vp, H: 75vp
+        X: -4vp, Y: -4vp
+        Opacity: 1
+
+      text (text)
+        W: 152vp, H: 41vp
+        X: 26vp, Y: 13vp
+        Opacity: 1
+        【内容】: 再次随机
+        【文本样式】:
+          字体: Muyao-Softbrush-Regular
+          字号: 38vp
+          颜色: rgba(0, 0, 0, 1)
+
+
+
+  开始游戏 (group)
+    W: 203vp, H: 67vp
+    X: 493vp, Y: 88vp
+    Opacity: 1
+    尺寸=Medium,类型=Emphasized,状态=Focus (group)
+      W: 203vp, H: 67vp
+      X: 0vp, Y: 0vp
+      Opacity: 1
+      【填充】: 纯色, rgba(255, 255, 255, 1)
+      矩形 3 (shapePath)
+        W: 211vp, H: 75vp
+        X: -4vp, Y: -4vp
+        Opacity: 1
+
+      text (text)
+        W: 152vp, H: 41vp
+        X: 26vp, Y: 13vp
+        Opacity: 1
+        【内容】: 开始游戏
+        【文本样式】:
+          字体: Muyao-Softbrush-Regular
+          字号: 38vp
+          颜色: rgba(0, 0, 0, 1)
+
+
+
+  图片展示 (shapePath)
+    W: 313vp, H: 320vp
+    X: 115vp, Y: 15vp
+    Opacity: 1
+    【填充】: 图片, File: 11d2733707697816fdc2e43c2f36b456bdadc2b8.png
+    【阴影】: rgba(0, 0, 0, 0.25), X: 4, Y: 4, Blur: 25, Spread: 5
+
+  返回组合 (group)
+    W: 35vp, H: 35vp
+    X: 18vp, Y: 11vp
+    Opacity: 1
+    【填充】: 纯色, rgba(255, 255, 255, 0.9)
+    返回图标 (group)
+      W: 20vp, H: 17vp
+      X: 7vp, Y: 9vp
+      Opacity: 1
+      【填充】: 图片, File: 7ade6729c509000e9c9ec39030c32dacae42e0bb.png
+
+
+
+相册上传——三屏 (group)
+  W: 1107vp, H: 776vp
+  X: 3388vp, Y: -413vp
+  Opacity: 1
+  【填充】: 图片, File: 52976c592b9ef6099ec4fc2d52ce4e3f1e91aa1e.png
+  重新上传 (group)
+    W: 254vp, H: 74vp
+    X: 587vp, Y: 677vp
+    Opacity: 1
+    尺寸=Medium,类型=Emphasized,状态=Focus (group)
+      W: 254vp, H: 74vp
+      X: 0vp, Y: 0vp
+      Opacity: 1
+      【填充】: 纯色, rgba(255, 255, 255, 0.91)
+      矩形 3 (shapePath)
+        W: 262vp, H: 82vp
+        X: -4vp, Y: -4vp
+        Opacity: 1
+
+      text (text)
+        W: 192vp, H: 52vp
+        X: 31vp, Y: 11vp
+        Opacity: 1
+        【内容】: 重新上传
+        【文本样式】:
+          字体: Muyao-Softbrush-Regular
+          字号: 48vp
+          颜色: rgba(0, 0, 0, 1)
+
+
+
+  开始游戏 (group)
+    W: 254vp, H: 74vp
+    X: 278vp, Y: 677vp
+    Opacity: 1
+    尺寸=Medium,类型=Emphasized,状态=Focus (group)
+      W: 254vp, H: 74vp
+      X: 0vp, Y: 0vp
+      Opacity: 1
+      【填充】: 纯色, rgba(255, 255, 255, 0.91)
+      矩形 3 (shapePath)
+        W: 262vp, H: 82vp
+        X: -4vp, Y: -4vp
+        Opacity: 1
+
+      text (text)
+        W: 192vp, H: 52vp
+        X: 31vp, Y: 11vp
+        Opacity: 1
+        【内容】: 开始游戏
+        【文本样式】:
+          字体: Muyao-Softbrush-Regular
+          字号: 48vp
+          颜色: rgba(0, 0, 0, 1)
+
+
+
+  图片展示 (shapePath)
+    W: 630vp, H: 630vp
+    X: 239vp, Y: 29vp
+    Opacity: 1
+    【填充】: 图片, File: 11d2733707697816fdc2e43c2f36b456bdadc2b8.png
+    【阴影】: rgba(0, 0, 0, 0.25), X: 4, Y: 4, Blur: 25, Spread: 5
+
+  返回组合 (group)
+    W: 60vp, H: 60vp
+    X: 31vp, Y: 25vp
+    Opacity: 1
+    【填充】: 纯色, rgba(255, 255, 255, 0.9)
+    返回图标 (group)
+      W: 37vp, H: 35vp
+      X: 12vp, Y: 12vp
+      Opacity: 1
+      【填充】: 图片, File: 7ade6729c509000e9c9ec39030c32dacae42e0bb.png
+
+
+
+相册上传——双屏 (group)
+  W: 712vp, H: 776vp
+  X: 3573vp, Y: 513vp
+  Opacity: 1
+  【填充】: 图片, File: 52976c592b9ef6099ec4fc2d52ce4e3f1e91aa1e.png
+  重新上传 (group)
+    W: 254vp, H: 74vp
+    X: 382vp, Y: 647vp
+    Opacity: 1
+    尺寸=Medium,类型=Emphasized,状态=Focus (group)
+      W: 254vp, H: 74vp
+      X: 0vp, Y: 0vp
+      Opacity: 1
+      【填充】: 纯色, rgba(255, 255, 255, 1)
+      矩形 3 (shapePath)
+        W: 262vp, H: 82vp
+        X: -4vp, Y: -4vp
+        Opacity: 1
+
+      text (text)
+        W: 192vp, H: 52vp
+        X: 31vp, Y: 11vp
+        Opacity: 1
+        【内容】: 重新上传
+        【文本样式】:
+          字体: Muyao-Softbrush-Regular
+          字号: 48vp
+          颜色: rgba(0, 0, 0, 1)
+
+
+
+  开始游戏 (group)
+    W: 254vp, H: 74vp
+    X: 78vp, Y: 647vp
+    Opacity: 1
+    尺寸=Medium,类型=Emphasized,状态=Focus (group)
+      W: 254vp, H: 74vp
+      X: 0vp, Y: 0vp
+      Opacity: 1
+      【填充】: 纯色, rgba(255, 255, 255, 1)
+      矩形 3 (shapePath)
+        W: 262vp, H: 82vp
+        X: -4vp, Y: -4vp
+        Opacity: 1
+
+      text (text)
+        W: 192vp, H: 52vp
+        X: 31vp, Y: 11vp
+        Opacity: 1
+        【内容】: 开始游戏
+        【文本样式】:
+          字体: Muyao-Softbrush-Regular
+          字号: 48vp
+          颜色: rgba(0, 0, 0, 1)
+
+
+
+  图片展示 (shapePath)
+    W: 558vp, H: 549vp
+    X: 78vp, Y: 67vp
+    Opacity: 1
+    【填充】: 图片, File: 11d2733707697816fdc2e43c2f36b456bdadc2b8.png
+    【阴影】: rgba(0, 0, 0, 0.25), X: 4, Y: 4, Blur: 25, Spread: 5
+
+  返回组合 (group)
+    W: 60vp, H: 60vp
+    X: 17vp, Y: 22vp
+    Opacity: 1
+    【填充】: 纯色, rgba(255, 255, 255, 0.9)
+    返回图标 (group)
+      W: 37vp, H: 35vp
+      X: 12vp, Y: 12vp
+      Opacity: 1
+      【填充】: 图片, File: 7ade6729c509000e9c9ec39030c32dacae42e0bb.png
+
+
+
+相册上传——单屏 (group)
+  W: 776vp, H: 350vp
+  X: 3554vp, Y: 1439vp
+  Opacity: 1
+  【填充】: 图片, File: 52976c592b9ef6099ec4fc2d52ce4e3f1e91aa1e.png
+  重新上传 (group)
+    W: 203vp, H: 67vp
+    X: 493vp, Y: 194vp
+    Opacity: 1
+    尺寸=Medium,类型=Emphasized,状态=Focus (group)
+      W: 203vp, H: 67vp
+      X: 0vp, Y: 0vp
+      Opacity: 1
+      【填充】: 纯色, rgba(255, 255, 255, 1)
+      矩形 3 (shapePath)
+        W: 211vp, H: 75vp
+        X: -4vp, Y: -4vp
+        Opacity: 1
+
+      text (text)
+        W: 152vp, H: 41vp
+        X: 26vp, Y: 13vp
+        Opacity: 1
+        【内容】: 重新上传
+        【文本样式】:
+          字体: Muyao-Softbrush-Regular
+          字号: 38vp
+          颜色: rgba(0, 0, 0, 1)
+
+
+
+  开始游戏 (group)
+    W: 203vp, H: 67vp
+    X: 493vp, Y: 88vp
+    Opacity: 1
+    尺寸=Medium,类型=Emphasized,状态=Focus (group)
+      W: 203vp, H: 67vp
+      X: 0vp, Y: 0vp
+      Opacity: 1
+      【填充】: 纯色, rgba(255, 255, 255, 1)
+      矩形 3 (shapePath)
+        W: 211vp, H: 75vp
+        X: -4vp, Y: -4vp
+        Opacity: 1
+
+      text (text)
+        W: 152vp, H: 41vp
+        X: 26vp, Y: 13vp
+        Opacity: 1
+        【内容】: 开始游戏
+        【文本样式】:
+          字体: Muyao-Softbrush-Regular
+          字号: 38vp
+          颜色: rgba(0, 0, 0, 1)
+
+
+
+  图片展示 (shapePath)
+    W: 313vp, H: 320vp
+    X: 115vp, Y: 15vp
+    Opacity: 1
+    【填充】: 图片, File: 11d2733707697816fdc2e43c2f36b456bdadc2b8.png
+    【阴影】: rgba(0, 0, 0, 0.25), X: 4, Y: 4, Blur: 25, Spread: 5
+
+  返回组合 (group)
+    W: 35vp, H: 35vp
+    X: 18vp, Y: 11vp
+    Opacity: 1
+    【填充】: 纯色, rgba(255, 255, 255, 0.9)
+    返回图标 (group)
+      W: 20vp, H: 17vp
+      X: 7vp, Y: 9vp
+      Opacity: 1
+      【填充】: 图片, File: 7ade6729c509000e9c9ec39030c32dacae42e0bb.png
+
+
+
+--- 页面: 游戏界面 ---
+
+游戏界面——三屏 (group)
+  W: 1107vp, H: 776vp
+  X: -553vp, Y: -413vp
+  Opacity: 1
+  【填充】: 图片, File: 52976c592b9ef6099ec4fc2d52ce4e3f1e91aa1e.png
+  重新开始 (group)
+    W: 254vp, H: 74vp
+    X: 793vp, Y: 553vp
+    Opacity: 1
+    尺寸=Medium,类型=Emphasized,状态=Focus (group)
+      W: 254vp, H: 74vp
+      X: 0vp, Y: 0vp
+      Opacity: 1
+      【填充】: 纯色, rgba(255, 255, 255, 0.91)
+      矩形 3 (shapePath)
+        W: 262vp, H: 82vp
+        X: -4vp, Y: -4vp
+        Opacity: 1
+
+      text (text)
+        W: 192vp, H: 52vp
+        X: 31vp, Y: 11vp
+        Opacity: 1
+        【内容】: 重新开始
+        【文本样式】:
+          字体: Muyao-Softbrush-Regular
+          字号: 48vp
+          颜色: rgba(0, 0, 0, 1)
+
+
+
+  偷看答案 (group)
+    W: 254vp, H: 74vp
+    X: 793vp, Y: 418vp
+    Opacity: 1
+    尺寸=Medium,类型=Emphasized,状态=Focus (group)
+      W: 254vp, H: 74vp
+      X: 0vp, Y: 0vp
+      Opacity: 1
+      【填充】: 纯色, rgba(255, 255, 255, 0.91)
+      矩形 3 (shapePath)
+        W: 262vp, H: 82vp
+        X: -4vp, Y: -4vp
+        Opacity: 1
+
+      text (text)
+        W: 192vp, H: 52vp
+        X: 31vp, Y: 11vp
+        Opacity: 1
+        【内容】: 偷看答案
+        【文本样式】:
+          字体: Muyao-Softbrush-Regular
+          字号: 48vp
+          颜色: rgba(0, 0, 0, 1)
+
+
+
+  切换难度 (group)
+    W: 254vp, H: 74vp
+    X: 793vp, Y: 283vp
+    Opacity: 1
+    尺寸=Medium,类型=Emphasized,状态=Focus (group)
+      W: 306vp, H: 74vp
+      X: -26vp, Y: 0vp
+      Opacity: 1
+      【填充】: 纯色, rgba(255, 255, 255, 0.91)
+      矩形 3 (shapePath)
+        W: 314vp, H: 82vp
+        X: -4vp, Y: -4vp
+        Opacity: 1
+
+      text (text)
+        W: 219vp, H: 52vp
+        X: 44vp, Y: 11vp
+        Opacity: 1
+        【内容】: 难度 3 * 3
+        【文本样式】:
+          字体: Muyao-Softbrush-Regular
+          字号: 48vp
+          颜色: rgba(0, 0, 0, 1)
+
+
+
+  切换模式 (group)
+    W: 302vp, H: 74vp
+    X: 769vp, Y: 148vp
+    Opacity: 1
+    尺寸=Medium,类型=Emphasized,状态=Focus (group)
+      W: 302vp, H: 74vp
+      X: 0vp, Y: 0vp
+      Opacity: 1
+      【填充】: 纯色, rgba(255, 255, 255, 0.91)
+      矩形 3 (shapePath)
+        W: 310vp, H: 82vp
+        X: -4vp, Y: -4vp
+        Opacity: 1
+
+      text (text)
+        W: 240vp, H: 52vp
+        X: 31vp, Y: 11vp
+        Opacity: 1
+        【内容】: 华容道模式
+        【文本样式】:
+          字体: Muyao-Softbrush-Regular
+          字号: 48vp
+          颜色: rgba(0, 0, 0, 1)
+
+
+
+  图片展示 (shapePath)
+    W: 630vp, H: 630vp
+    X: 92vp, Y: 73vp
+    Opacity: 1
+    【填充】: 图片, File: 11d2733707697816fdc2e43c2f36b456bdadc2b8.png
+    【阴影】: rgba(0, 0, 0, 0.25), X: 4, Y: 4, Blur: 25, Spread: 5
+
+  返回组合 (group)
+    W: 60vp, H: 60vp
+    X: 20vp, Y: 21vp
+    Opacity: 1
+    【填充】: 纯色, rgba(255, 255, 255, 0.9)
+    返回图标 (group)
+      W: 37vp, H: 35vp
+      X: 12vp, Y: 12vp
+      Opacity: 1
+      【填充】: 图片, File: 7ade6729c509000e9c9ec39030c32dacae42e0bb.png
+
+
+
+游戏界面——双屏 (group)
+  W: 712vp, H: 776vp
+  X: -368vp, Y: 499vp
+  Opacity: 1
+  【填充】: 图片, File: 52976c592b9ef6099ec4fc2d52ce4e3f1e91aa1e.png
+  重新开始 (group)
+    W: 254vp, H: 74vp
+    X: 388vp, Y: 661vp
+    Opacity: 1
+    尺寸=Medium,类型=Emphasized,状态=Focus (group)
+      W: 254vp, H: 74vp
+      X: 0vp, Y: 0vp
+      Opacity: 1
+      【填充】: 纯色, rgba(255, 255, 255, 1)
+      矩形 3 (shapePath)
+        W: 262vp, H: 82vp
+        X: -4vp, Y: -4vp
+        Opacity: 1
+
+      text (text)
+        W: 192vp, H: 52vp
+        X: 31vp, Y: 11vp
+        Opacity: 1
+        【内容】: 重新开始
+        【文本样式】:
+          字体: Muyao-Softbrush-Regular
+          字号: 48vp
+          颜色: rgba(0, 0, 0, 1)
+
+
+
+  偷看答案 (group)
+    W: 254vp, H: 74vp
+    X: 70vp, Y: 661vp
+    Opacity: 1
+    尺寸=Medium,类型=Emphasized,状态=Focus (group)
+      W: 254vp, H: 74vp
+      X: 0vp, Y: 0vp
+      Opacity: 1
+      【填充】: 纯色, rgba(255, 255, 255, 1)
+      矩形 3 (shapePath)
+        W: 262vp, H: 82vp
+        X: -4vp, Y: -4vp
+        Opacity: 1
+
+      text (text)
+        W: 192vp, H: 52vp
+        X: 31vp, Y: 11vp
+        Opacity: 1
+        【内容】: 偷看答案
+        【文本样式】:
+          字体: Muyao-Softbrush-Regular
+          字号: 48vp
+          颜色: rgba(0, 0, 0, 1)
+
+
+
+  切换难度 (group)
+    W: 287vp, H: 74vp
+    X: 372vp, Y: 556vp
+    Opacity: 1
+    尺寸=Medium,类型=Emphasized,状态=Focus (group)
+      W: 287vp, H: 74vp
+      X: 0vp, Y: 0vp
+      Opacity: 1
+      【填充】: 纯色, rgba(255, 255, 255, 1)
+      矩形 3 (shapePath)
+        W: 295vp, H: 82vp
+        X: -4vp, Y: -4vp
+        Opacity: 1
+
+      text (text)
+        W: 219vp, H: 52vp
+        X: 34vp, Y: 11vp
+        Opacity: 1
+        【内容】: 难度 3 * 3
+        【文本样式】:
+          字体: Muyao-Softbrush-Regular
+          字号: 48vp
+          颜色: rgba(0, 0, 0, 1)
+
+
+
+  切换模式 (group)
+    W: 287vp, H: 74vp
+    X: 54vp, Y: 556vp
+    Opacity: 1
+    尺寸=Medium,类型=Emphasized,状态=Focus (group)
+      W: 287vp, H: 74vp
+      X: 0vp, Y: 0vp
+      Opacity: 1
+      【填充】: 纯色, rgba(255, 255, 255, 1)
+      矩形 3 (shapePath)
+        W: 295vp, H: 82vp
+        X: -4vp, Y: -4vp
+        Opacity: 1
+
+      text (text)
+        W: 240vp, H: 52vp
+        X: 24vp, Y: 11vp
+        Opacity: 1
+        【内容】: 华容道模式
+        【文本样式】:
+          字体: Muyao-Softbrush-Regular
+          字号: 48vp
+          颜色: rgba(0, 0, 0, 1)
+
+
+
+  图片展示 (shapePath)
+    W: 494vp, H: 475vp
+    X: 107vp, Y: 52vp
+    Opacity: 1
+    【填充】: 图片, File: 11d2733707697816fdc2e43c2f36b456bdadc2b8.png
+    【阴影】: rgba(0, 0, 0, 0.25), X: 4, Y: 4, Blur: 25, Spread: 5
+
+  返回组合 (group)
+    W: 60vp, H: 60vp
+    X: 17vp, Y: 22vp
+    Opacity: 1
+    【填充】: 纯色, rgba(255, 255, 255, 0.9)
+    返回图标 (group)
+      W: 37vp, H: 35vp
+      X: 12vp, Y: 12vp
+      Opacity: 1
+      【填充】: 图片, File: 7ade6729c509000e9c9ec39030c32dacae42e0bb.png
+
+
+
+游戏界面——单屏 (group)
+  W: 776vp, H: 350vp
+  X: -387vp, Y: 1411vp
+  Opacity: 1
+  【填充】: 图片, File: 52976c592b9ef6099ec4fc2d52ce4e3f1e91aa1e.png
+  切换图片 (group)
+    W: 206vp, H: 65vp
+    X: 503vp, Y: 103vp
+    Opacity: 1
+    尺寸=Medium,类型=Emphasized,状态=Focus (group)
+      W: 206vp, H: 65vp
+      X: 0vp, Y: 0vp
+      Opacity: 1
+      【填充】: 纯色, rgba(255, 255, 255, 1)
+      矩形 3 (shapePath)
+        W: 214vp, H: 73vp
+        X: -4vp, Y: -4vp
+        Opacity: 1
+
+      text (text)
+        W: 160vp, H: 38vp
+        X: 23vp, Y: 14vp
+        Opacity: 1
+        【内容】: 难度 3 * 3
+        【文本样式】:
+          字体: Muyao-Softbrush-Regular
+          字号: 35vp
+          颜色: rgba(0, 0, 0, 1)
+
+
+
+  开始游戏 (group)
+    W: 206vp, H: 65vp
+    X: 503vp, Y: 24vp
+    Opacity: 1
+    尺寸=Medium,类型=Emphasized,状态=Focus (group)
+      W: 206vp, H: 65vp
+      X: 0vp, Y: 0vp
+      Opacity: 1
+      【填充】: 纯色, rgba(255, 255, 255, 1)
+      矩形 3 (shapePath)
+        W: 214vp, H: 73vp
+        X: -4vp, Y: -4vp
+        Opacity: 1
+
+      text (text)
+        W: 175vp, H: 38vp
+        X: 16vp, Y: 14vp
+        Opacity: 1
+        【内容】: 华容道模式
+        【文本样式】:
+          字体: Muyao-Softbrush-Regular
+          字号: 35vp
+          颜色: rgba(0, 0, 0, 1)
+
+
+
+  切换图片 (group)
+    W: 190vp, H: 65vp
+    X: 511vp, Y: 261vp
+    Opacity: 1
+    尺寸=Medium,类型=Emphasized,状态=Focus (group)
+      W: 190vp, H: 65vp
+      X: 0vp, Y: 0vp
+      Opacity: 1
+      【填充】: 纯色, rgba(255, 255, 255, 1)
+      矩形 3 (shapePath)
+        W: 198vp, H: 73vp
+        X: -4vp, Y: -4vp
+        Opacity: 1
+
+      text (text)
+        W: 140vp, H: 38vp
+        X: 25vp, Y: 14vp
+        Opacity: 1
+        【内容】: 重新开始
+        【文本样式】:
+          字体: Muyao-Softbrush-Regular
+          字号: 35vp
+          颜色: rgba(0, 0, 0, 1)
+
+
+
+  开始游戏 (group)
+    W: 190vp, H: 65vp
+    X: 511vp, Y: 182vp
+    Opacity: 1
+    尺寸=Medium,类型=Emphasized,状态=Focus (group)
+      W: 190vp, H: 65vp
+      X: 0vp, Y: 0vp
+      Opacity: 1
+      【填充】: 纯色, rgba(255, 255, 255, 1)
+      矩形 3 (shapePath)
+        W: 198vp, H: 73vp
+        X: -4vp, Y: -4vp
+        Opacity: 1
+
+      text (text)
+        W: 140vp, H: 38vp
+        X: 25vp, Y: 14vp
+        Opacity: 1
+        【内容】: 偷看答案
+        【文本样式】:
+          字体: Muyao-Softbrush-Regular
+          字号: 35vp
+          颜色: rgba(0, 0, 0, 1)
+
+
+
+  图片展示 (shapePath)
+    W: 313vp, H: 320vp
+    X: 115vp, Y: 15vp
+    Opacity: 1
+    【填充】: 图片, File: 11d2733707697816fdc2e43c2f36b456bdadc2b8.png
+    【阴影】: rgba(0, 0, 0, 0.25), X: 4, Y: 4, Blur: 25, Spread: 5
+
+  返回组合 (group)
+    W: 35vp, H: 35vp
+    X: 18vp, Y: 11vp
+    Opacity: 1
+    【填充】: 纯色, rgba(255, 255, 255, 0.9)
+    返回图标 (group)
+      W: 20vp, H: 17vp
+      X: 7vp, Y: 9vp
+      Opacity: 1
+      【填充】: 图片, File: 7ade6729c509000e9c9ec39030c32dacae42e0bb.png
+
+
+

@@ -20,6 +20,17 @@
       },
       {
         "name": "ohos.permission.INTERNET"
+      },
+      {
+        "name": "ohos.permission.START_ABILITIES_FROM_BACKGROUND",
+        "reason": "$string:permission_start_abilities_reason",
+        "usedScene": {
+          "abilities": ["EntryAbility"],
+          "when": "inuse"
+        }
+      },
+      {
+        "name": "ohos.permission.REQUIRE_FORM"
       }
     ],
     "deliveryWithInstall": true,
@@ -35,13 +46,16 @@
         "startWindowIcon": "$media:startIcon",
         "startWindowBackground": "$color:start_window_background",
         "exported": true,
+        "orientation": "unspecified",
+        "supportWindowMode": ["fullscreen"],
         "skills": [
           {
             "entities": [
               "entity.system.home"
             ],
             "actions": [
-              "ohos.want.action.home"
+              "ohos.want.action.home",
+              "action.system.home"
             ]
           }
         ]

@@ -78,24 +78,57 @@ export class ShuffleHelper {
   }
 
   /**
-   * 交换模式的打乱
-   * 随机打乱所有方块（包括空格）
-   * @param tiles 方块数组
+   * 交换模式的打乱（优化版）
+   * 特点：1. 无空格，所有方块都有图片  2. 保留30%的方块在原位作为提示
+   * @param tiles 方块数组（不包含空格）
    * @param gridSize 网格大小
    * @returns 打乱后的方块数组
    */
   static shuffleForSwapMode(tiles: TileData[], gridSize: number): TileData[] {
-    // 复制数组
-    const shuffledTiles = tiles.map(tile => {
-      return new TileData(tile.id, tile.currentIndex, tile.pixelMap, tile.isEmpty);
-    });
-
-    // Fisher-Yates 洗牌算法
-    for (let i = shuffledTiles.length - 1; i > 0; i--) {
-      const j = Math.floor(Math.random() * (i + 1));
-      ShuffleHelper.swapTiles(shuffledTiles, i, j);
+    const totalTiles = tiles.length;
+    const hintCount = Math.floor(totalTiles * 0.3); // 保留30%作为提示
+    
+    // 随机选择哪些方块作为提示（保持原位）
+    const allIndices: number[] = [];
+    for (let i = 0; i < totalTiles; i++) {
+      allIndices.push(i);
     }
-
+    const hintIndices = new Set<number>();
+    
+    // 随机选择提示方块的索引
+    while (hintIndices.size < hintCount) {
+      const randomIndex: number = allIndices[Math.floor(Math.random() * allIndices.length)];
+      hintIndices.add(randomIndex);
+    }
+    
+    // 复制数组并标记提示方块
+    const shuffledTiles = tiles.map((tile, index) => {
+      return new TileData(
+        tile.id,
+        tile.currentIndex,
+        tile.pixelMap,
+        false,  // 交换模式没有空格
+        hintIndices.has(index)  // 标记是否为提示方块
+      );
+    });
+    
+    // 获取非提示方块的索引列表
+    const nonHintIndices: number[] = [];
+    for (let i = 0; i < totalTiles; i++) {
+      if (!hintIndices.has(i)) {
+        nonHintIndices.push(i);
+      }
+    }
+    
+    // 只打乱非提示方块
+    // Fisher-Yates 洗牌算法（只对非提示方块）
+    for (let i = nonHintIndices.length - 1; i > 0; i--) {
+      const j = Math.floor(Math.random() * (i + 1));
+      const index1 = nonHintIndices[i];
+      const index2 = nonHintIndices[j];
+      ShuffleHelper.swapTiles(shuffledTiles, index1, index2);
+    }
+    
     return shuffledTiles;
   }
 

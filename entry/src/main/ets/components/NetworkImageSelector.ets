@@ -1,180 +1,247 @@
-import { NetworkImageService, ImageData } from '../utils/NetworkImageService';
-import { GameConstants } from '../constants/GameConstants';
+import { font } from '@kit.ArkUI';
+import { DesignConstants } from '../constants/DesignConstants';
+import { ApiConstants } from '../constants/ApiConstants';
+import { ScreenState, ScreenStateManager } from '../utils/ScreenStateManager';
 
 /**
- * 网络图片选择对话框
+ * 响应式尺寸接口
+ */
+interface NetworkImageResponsiveSize {
+  width: number;
+  padding: number;
+  titleSize: number;
+  categoryTitleSize: number;
+  categoryBtnSize: number;
+  categoryBtnHeight: number;
+  descSize: number;
+  confirmBtnHeight: number;
+  confirmBtnSize: number;
+  cancelBtnHeight: number;
+  cancelBtnSize: number;
+}
+
+/**
+ * 网络图片选择弹窗
  */
 @CustomDialog
 export struct NetworkImageSelector {
   controller: CustomDialogController;
-  onImageSelected?: (imageUrl: string) => void;
-
   @State searchKeyword: string = '';
-  @State images: ImageData[] = [];
-  @State isLoading: boolean = false;
-  @State selectedImageUrl: string = '';
+  @State selectedCategory: string = 'random';  // 类别：random, nature, city, etc.
+  onImageSelected?: (imageUrl: string) => void;
+  @State screenState: ScreenState = ScreenState.TRIPLE;
+  private screenManager: ScreenStateManager = ScreenStateManager.getInstance();
+  private networkImageSize: NetworkImageResponsiveSize = {
+    width: 500,
+    padding: 32,
+    titleSize: 48,
+    categoryTitleSize: 36,
+    categoryBtnSize: 32,
+    categoryBtnHeight: 60,
+    descSize: 28,
+    confirmBtnHeight: 74,
+    confirmBtnSize: 44,
+    cancelBtnHeight: 64,
+    cancelBtnSize: 40
+  };
 
-  async aboutToAppear() {
-    // 默认加载随机图片
-    await this.loadRandomImages();
+  aboutToAppear() {
+    this.screenState = this.screenManager.getCurrentState();
+    this.networkImageSize = this.getResponsiveSize();
+    // 注册自定义字体
+    font.registerFont({
+      familyName: 'Muyao-Softbrush',
+      familySrc: `/resources/rawfile/${DesignConstants.CUSTOM_FONT_PATH}`
+    });
   }
 
-  // 加载随机图片
-  private async loadRandomImages(): Promise<void> {
-    this.isLoading = true;
-    try {
-      this.images = await NetworkImageService.getRandomImages();
-    } catch (error) {
-      console.error('加载随机图片失败:', error);
-    } finally {
-      this.isLoading = false;
+  // 获取响应式尺寸
+  private getResponsiveSize(): NetworkImageResponsiveSize {
+    if (this.screenState === ScreenState.SINGLE) {
+      const imgSize: NetworkImageResponsiveSize = {
+        width: 280,
+        padding: 20,
+        titleSize: 32,
+        categoryTitleSize: 24,
+        categoryBtnSize: 20,
+        categoryBtnHeight: 42,
+        descSize: 18,
+        confirmBtnHeight: 50,
+        confirmBtnSize: 28,
+        cancelBtnHeight: 44,
+        cancelBtnSize: 26
+      };
+      return imgSize;
+    } else if (this.screenState === ScreenState.DOUBLE) {
+      const imgSize: NetworkImageResponsiveSize = {
+        width: 390,
+        padding: 26,
+        titleSize: 40,
+        categoryTitleSize: 30,
+        categoryBtnSize: 26,
+        categoryBtnHeight: 51,
+        descSize: 23,
+        confirmBtnHeight: 62,
+        confirmBtnSize: 36,
+        cancelBtnHeight: 54,
+        cancelBtnSize: 33
+      };
+      return imgSize;
+    } else {
+      const imgSize: NetworkImageResponsiveSize = {
+        width: 500,
+        padding: 32,
+        titleSize: 48,
+        categoryTitleSize: 36,
+        categoryBtnSize: 32,
+        categoryBtnHeight: 60,
+        descSize: 28,
+        confirmBtnHeight: 74,
+        confirmBtnSize: 44,
+        cancelBtnHeight: 64,
+        cancelBtnSize: 40
+      };
+      return imgSize;
     }
   }
 
-  // 搜索图片
-  private async searchImages(): Promise<void> {
-    if (!this.searchKeyword.trim()) {
-      await this.loadRandomImages();
-      return;
+  // 随机获取图片URL（使用国内API）
+  getRandomImageUrl(): string {
+    const timestamp = Date.now();
+    
+    // 根据类别选择不同的国内API
+    switch (this.selectedCategory) {
+      case 'random':
+        // 必应每日壁纸（高质量）
+        return `${ApiConstants.BING_IMAGE_URL}?t=${timestamp}`;
+      
+      case 'nature':
+        // 风景图片
+        return `https://api.btstu.cn/sjbz/api.php?lx=fengjing&t=${timestamp}`;
+      
+      case 'city':
+        // 使用Lorem Picsum（城市场景）
+        return `${ApiConstants.PICSUM_BASE_URL}/800/800?random=${timestamp}`;
+      
+      case 'animal':
+        // 动漫图片（替代动物）
+        return `https://api.btstu.cn/sjbz/api.php?lx=dongman&t=${timestamp}`;
+      
+      default:
+        // 默认使用必应壁纸
+        return `${ApiConstants.BING_IMAGE_URL}?t=${timestamp}`;
     }
+  }
 
-    this.isLoading = true;
-    try {
-      this.images = await NetworkImageService.searchImages(this.searchKeyword);
-    } catch (error) {
-      console.error('搜索图片失败:', error);
-    } finally {
-      this.isLoading = false;
+  // 类别选择按钮
+  @Builder
+  CategoryButton(label: string, category: string) {
+    Button() {
+      Text(label)
+        .fontFamily('Muyao-Softbrush')
+        .fontSize(this.networkImageSize.categoryBtnSize)
+        .fontColor(this.selectedCategory === category ? '#FFFFFF' : '#000000')
     }
+    .height(this.networkImageSize.categoryBtnHeight)
+    .backgroundColor(this.selectedCategory === category ? '#000000' : '#FFFFFF')
+    .border({
+      width: 3,
+      color: '#000000'
+    })
+    .borderRadius(8)
+    .layoutWeight(1)
+    .onClick(() => {
+      this.selectedCategory = category;
+    })
   }
 
   build() {
-    Column({ space: 16 }) {
+    Column({ space: 20 }) {
       // 标题
-      Text('网络图片搜索')
-        .fontSize(20)
+      Text('网络随机图片')
+        .fontFamily('Muyao-Softbrush')
+        .fontSize(this.networkImageSize.titleSize)
+        .fontColor('#000000')
         .fontWeight(FontWeight.Bold)
-        .fontColor(GameConstants.COLORS.TEXT)
 
-      // 搜索框
-      Row({ space: 8 }) {
-        TextInput({ placeholder: '输入关键字（如：自然、动物）', text: this.searchKeyword })
-          .layoutWeight(1)
-          .onChange((value: string) => {
-            this.searchKeyword = value;
-          })
-          .onSubmit(() => {
-            this.searchImages();
-          })
+      // 类别选择
+      Column({ space: 12 }) {
+        Text('选择类别')
+          .fontFamily('Muyao-Softbrush')
+          .fontSize(this.networkImageSize.categoryTitleSize)
+          .fontColor('#000000')
+        
+        Row({ space: 12 }) {
+          this.CategoryButton('必应壁纸', 'random')
+          this.CategoryButton('风景', 'nature')
+        }
+        .width('100%')
 
-        Button('搜索')
-          .height(40)
-          .onClick(() => {
-            this.searchImages();
-          })
-
-        Button('随机')
-          .height(40)
-          .onClick(() => {
-            this.loadRandomImages();
-          })
+        Row({ space: 12 }) {
+          this.CategoryButton('随机图片', 'city')
+          this.CategoryButton('动漫', 'animal')
+        }
+        .width('100%')
       }
       .width('100%')
 
-      // 图片网格
-      if (this.isLoading) {
-        Column() {
-          LoadingProgress()
-            .width(40)
-            .height(40)
-          Text('加载中...')
-            .fontSize(14)
-            .fontColor('#999999')
-            .margin({ top: 8 })
-        }
-        .width('100%')
-        .height(300)
-        .justifyContent(FlexAlign.Center)
-      } else if (this.images.length === 0) {
-        Column() {
-          Text('😔')
-            .fontSize(48)
-          Text('未找到图片')
-            .fontSize(14)
-            .fontColor('#999999')
-            .margin({ top: 8 })
-        }
-        .width('100%')
-        .height(300)
-        .justifyContent(FlexAlign.Center)
-      } else {
-        Scroll() {
-          Grid() {
-            ForEach(this.images.slice(0, 12), (img: ImageData) => {
-              GridItem() {
-                Column() {
-                  Image(img.previewURL)
-                    .width('100%')
-                    .height(100)
-                    .objectFit(ImageFit.Cover)
-                    .borderRadius(8)
-                    .border({
-                      width: this.selectedImageUrl === img.webformatURL ? 3 : 0,
-                      color: GameConstants.COLORS.PRIMARY
-                    })
+      // 说明文字
+      Text('将随机选择一张高质量图片')
+        .fontFamily('Muyao-Softbrush')
+        .fontSize(this.networkImageSize.descSize)
+        .fontColor('#666666')
 
-                  Text(img.tags.split(',')[0])
-                    .fontSize(12)
-                    .fontColor('#666666')
-                    .maxLines(1)
-                    .textOverflow({ overflow: TextOverflow.Ellipsis })
-                    .margin({ top: 4 })
-                }
-                .onClick(() => {
-                  this.selectedImageUrl = img.webformatURL;
-                })
-              }
-            })
-          }
-          .columnsTemplate('1fr 1fr 1fr')
-          .rowsGap(12)
-          .columnsGap(12)
-          .width('100%')
-        }
-        .width('100%')
-        .height(300)
-        .scrollBar(BarState.Auto)
-      }
-
-      // 按钮组
-      Row({ space: 12 }) {
-        Button('取消')
-          .layoutWeight(1)
-          .height(44)
-          .backgroundColor(Color.White)
-          .fontColor(GameConstants.COLORS.TEXT)
-          .border({ width: 1, color: '#E0E0E0' })
-          .onClick(() => {
-            this.controller.close();
-          })
-
-        Button('确定')
-          .layoutWeight(1)
-          .height(44)
-          .backgroundColor(GameConstants.COLORS.PRIMARY)
-          .enabled(this.selectedImageUrl !== '')
-          .onClick(() => {
-            if (this.selectedImageUrl && this.onImageSelected) {
-              this.onImageSelected(this.selectedImageUrl);
-            }
-            this.controller.close();
-          })
+      // 确认按钮
+      Button() {
+        Text('确认选择')
+          .fontFamily('Muyao-Softbrush')
+          .fontSize(this.networkImageSize.confirmBtnSize)
+          .fontColor('#FFFFFF')
       }
       .width('100%')
+      .height(this.networkImageSize.confirmBtnHeight)
+      .backgroundColor('#000000')
+      .borderRadius(8)
+      .border({
+        width: 4,
+        color: '#000000'
+      })
+      .margin({ top: 16 })
+      .onClick(() => {
+        const imageUrl = this.getRandomImageUrl();
+        console.info('[NetworkImageSelector] 生成随机图片URL:', imageUrl);
+        if (this.onImageSelected) {
+          this.onImageSelected(imageUrl);
+        }
+        this.controller.close();
+      })
+
+      // 取消按钮
+      Button() {
+        Text('取消')
+          .fontFamily('Muyao-Softbrush')
+          .fontSize(this.networkImageSize.cancelBtnSize)
+          .fontColor('#000000')
+      }
+      .width('100%')
+      .height(this.networkImageSize.cancelBtnHeight)
+      .backgroundColor('#FFFFFF')
+      .borderRadius(8)
+      .border({
+        width: 3,
+        color: '#000000'
+      })
+      .onClick(() => {
+        this.controller.close();
+      })
     }
-    .padding(24)
-    .backgroundColor(Color.White)
+    .width(this.networkImageSize.width)
+    .padding(this.networkImageSize.padding)
+    .backgroundColor('#FFFFFF')
     .borderRadius(16)
+    .border({
+      width: 4,
+      color: '#000000'
+    })
   }
 }
-
