@@ -24,10 +24,13 @@ interface FormDataContent {
  * 拼图游戏万能卡片扩展能力
  */
 export default class PuzzleFormAbility extends FormExtensionAbility {
+  private hasInitializedStorageContext: boolean = false;
+
   /**
    * 创建卡片时调用
    */
   onAddForm(want: Want): formBindingData.FormBindingData {
+    this.ensureStorageContext();
     hilog.info(DOMAIN, TAG, '========== onAddForm 调用 ==========');
     hilog.info(DOMAIN, TAG, 'want.parameters: %{public}s', JSON.stringify(want.parameters));
     
@@ -121,6 +124,7 @@ export default class PuzzleFormAbility extends FormExtensionAbility {
    * 异步加载游戏状态并更新卡片
    */
   private async loadGameStateAsync(formId: string): Promise<void> {
+    this.ensureStorageContext();
     try {
       const gameState = await GameStorage.loadGameState();
       
@@ -147,6 +151,7 @@ export default class PuzzleFormAbility extends FormExtensionAbility {
    * 方案二：智能检测过期数据（超过24小时）
    */
   private async loadGameStateWithCleanupCheck(formId: string): Promise<void> {
+    this.ensureStorageContext();
     try {
       const gameState = await GameStorage.loadGameState();
       
@@ -233,6 +238,7 @@ export default class PuzzleFormAbility extends FormExtensionAbility {
    * 卡片更新时调用
    */
   onUpdateForm(formId: string): void {
+    this.ensureStorageContext();
     hilog.info(DOMAIN, TAG, '========== onUpdateForm 触发（系统刷新）==========');
     hilog.info(DOMAIN, TAG, 'formId: %{public}s', formId);
     
@@ -282,5 +288,20 @@ export default class PuzzleFormAbility extends FormExtensionAbility {
     const secs = seconds % 60;
     return `${mins.toString().padStart(2, '0')}:${secs.toString().padStart(2, '0')}`;
   }
-}
 
+  /**
+   * 确保GameStorage拥有可用的context（FormAbility进程单独注入）
+   */
+  private ensureStorageContext(): void {
+    if (this.hasInitializedStorageContext) {
+      return;
+    }
+    try {
+      const appContext = this.context.getApplicationContext();
+      GameStorage.setContext(appContext);
+      this.hasInitializedStorageContext = true;
+    } catch (error) {
+      hilog.error(DOMAIN, TAG, '注入GameStorage上下文失败: %{public}s', JSON.stringify(error));
+    }
+  }
+}

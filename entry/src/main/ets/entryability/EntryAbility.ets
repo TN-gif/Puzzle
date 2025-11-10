@@ -48,6 +48,7 @@ export default class EntryAbility extends UIAbility {
     
     // 保存context和resourceManager到AppStorage，供全局使用
     AppStorage.setOrCreate('context', this.context);
+    GameStorage.setContext(this.context);
     AppStorage.setOrCreate('resourceManager', this.context.resourceManager);
     hilog.info(DOMAIN, TAG, 'Context和ResourceManager已保存到AppStorage');
     

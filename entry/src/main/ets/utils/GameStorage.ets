@@ -27,19 +27,31 @@ export interface BestRecord {
  * 符合ArkTS规范：使用AppStorage获取context
  */
 export class GameStorage {
+  private static context: common.Context | null = null;
   private static readonly PREFERENCES_NAME = 'puzzle_game_prefs';
   private static readonly KEY_GAME_STATE = 'game_state';
   private static readonly KEY_BEST_RECORD = 'best_record';
 
   /**
-   * 从AppStorage获取context
+   * 设置上下文，支持跨进程（如FormAbility）显式注入
    */
-  private static getContext(): common.UIAbilityContext {
-    const context = AppStorage.get<common.UIAbilityContext>('context');
-    if (!context) {
-      throw new Error('Context未初始化，请确保在EntryAbility中已调用AppStorage.setOrCreate');
+  static setContext(context: common.Context): void {
+    GameStorage.context = context;
+  }
+
+  /**
+   * 获取上下文：优先返回显式注入，其次尝试从AppStorage读取
+   */
+  private static getContext(): common.Context {
+    if (GameStorage.context) {
+      return GameStorage.context;
     }
-    return context;
+    const storedContext = AppStorage.get<common.UIAbilityContext>('context');
+    if (storedContext) {
+      GameStorage.context = storedContext;
+      return storedContext;
+    }
+    throw new Error('Context未初始化，请在EntryAbility中保存context或在使用前调用GameStorage.setContext');
   }
 
   /**
@@ -142,4 +154,3 @@ export class GameStorage {
     }
   }
 }
-
